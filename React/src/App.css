@@ -1,0 +1,78 @@
+.main_div{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 197, 161);
+}
+.centre_div{
+  min-height: 50%;
+  width: 25%;
+  background-color: rgb(221, 209, 209);
+  text-align: center;
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+.listhead{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+  color: rgb(10, 68, 68);
+}
+
+input[type=text]{
+width: 80%;
+height: 40px;
+margin: 5px 0;
+border: none;
+border-bottom: 2px solid blue;
+outline: none;
+background-color: transparent;
+color: rgb(116, 33, 33);
+}
+.btn{
+  padding: 5px 5px;
+  width: 30px;
+  border-radius : 2px;
+  background-color: rgb(110, 62, 70);
+  color: white;
+}
+.btn:hover{
+  color: rgb(110, 62, 70);
+  background-color: whitesmoke;
+}
+.items{
+  margin: 5px;
+  padding: 5px;
+  width: 80%;
+  /* height: 100%;   */
+  display: flex;
+  justify-content: flex-start;
+  /* border: 2px solid blue; */
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+}
+.item{
+  margin: 5px 0;
+}
+.cut{
+  width: 30px;
+  height: 35px;
+  color: red;
+  margin: 5px;
+  padding: 5px;
+  /* border-radius: 100%; */
+  font-size: 15px;
+  background-color: rgb(180, 172, 172);
+}
